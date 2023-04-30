@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/task/static/css/main.8b1d3fa1.css",
+    "main.js": "/task/static/js/main.e25b12ad.js",
+    "static/js/377.c0ad8542.chunk.js": "/task/static/js/377.c0ad8542.chunk.js",
+    "static/media/fa-solid-900.ttf": "/task/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/task/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/task/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/task/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/prdouct1.jpg": "/task/static/media/prdouct1.ba2440441f7c24998c74.jpg",
+    "static/media/product4.jpg": "/task/static/media/product4.ed9f62d31686ce27e220.jpg",
+    "static/media/product2.jpg": "/task/static/media/product2.55b68641ee3dc186d672.jpg",
+    "static/media/product3.jpg": "/task/static/media/product3.269b9a5bba83b9c71d2f.jpg",
+    "static/media/fa-regular-400.ttf": "/task/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/fa-regular-400.woff2": "/task/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/task/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/task/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/brand-logo-yellow.svg": "/task/static/media/brand-logo-yellow.83fa84465a59fb3b307c809ee4b13fe1.svg",
+    "static/media/brand_logo_black (1).svg": "/task/static/media/brand_logo_black (1).fd943939913025cdcbb85274a343ddcf.svg",
+    "static/media/nas_nav.svg": "/task/static/media/nas_nav.cd01cf193d6315d151c4ede0292c291d.svg",
+    "static/media/360.svg": "/task/static/media/360.f40b21392e38f0da66941b3cc3eb31d6.svg",
+    "static/media/slick.svg": "/task/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/task/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/task/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/task/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/task/index.html",
+    "static/media/send.svg": "/task/static/media/send.54305e6eb095364d05d978a56e7a33f6.svg",
+    "main.8b1d3fa1.css.map": "/task/static/css/main.8b1d3fa1.css.map",
+    "main.e25b12ad.js.map": "/task/static/js/main.e25b12ad.js.map",
+    "377.c0ad8542.chunk.js.map": "/task/static/js/377.c0ad8542.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b1d3fa1.css",
+    "static/js/main.e25b12ad.js"
+  ]
+}
