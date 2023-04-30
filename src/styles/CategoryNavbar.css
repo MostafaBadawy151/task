@@ -1,0 +1,61 @@
+.navbarc {
+  padding: 10px 20px;
+  background-color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbarc .navbar-logo a {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+}
+.navbarc .navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+.navbarc .navbar-toggle span {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px;
+  background-color: #333;
+}
+.navbarc .navbar-links {
+  margin: auto;
+  width: 90%;
+}
+.navbarc .navbar-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+}
+.navbarc .navbar-links ul li {
+  margin-right: 1rem;
+  list-style: none;
+}
+.navbarc .navbar-links ul li a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+.navbarc .navbar-links ul li a:hover {
+  color: #007bff;
+}
+@media screen and (max-width: 768px) {
+  .navbarc .navbar-links {
+    display: none;
+  }
+  .navbarc .navbar-links ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .navbarc .navbar-links ul li {
+    margin: 0.5rem 0;
+  }
+  .navbarc .navbar-toggle {
+    display: block;
+  }
+}/*# sourceMappingURL=CategoryNavbar.css.map */

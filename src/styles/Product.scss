@@ -1,0 +1,278 @@
+$primary-color:#FFF100;
+$sec-color:#542E90;
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    position: relative;
+}
+
+.product-images{
+    width: 40%
+    
+}
+.product-content{
+    width: 50%;
+}
+.main-img{
+   width: 70%;
+   position: relative;
+   img{
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 10px;
+
+}
+
+.rotate{
+    width: 38px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: white;
+    padding: 4px;
+    box-shadow: 5px 5px 5px gray;
+}
+}
+.more-images{
+    width: 70%;
+    img{
+        width: 100%;
+        height: 200px;
+    }
+    button{
+        background-color: rgba(128, 128, 128, 0.411);
+        
+}
+}
+.img-cover{
+    width: 100px;
+}
+
+
+
+.product-content{
+    .logo{
+        width: 50px;
+
+    }
+    p{
+        font-weight: bold;
+        text-align: start;
+    }
+    .price{
+        color: $sec-color;
+    }
+    .sizes{
+        font-weight: bold;
+    }
+}
+
+.sizes{
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+}
+
+.size{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    
+}
+.size:hover{
+    background-color: rgba(128, 128, 128, 0.61);
+ }
+
+ .product-colors{
+    display: flex;
+    align-items: center;
+ }
+ .pro-color{
+   
+    img{
+        width: 58px;
+        height: 58px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border: 1px solid gray;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+ }
+
+ .add-btn{
+    background-color: $sec-color;
+    border: transparent;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 5px 30px;
+    color: #fff;
+    margin-right: 10px;
+    margin-bottom: 10px
+}
+.pick-btn{
+    @extend .add-btn;
+    background-color: $primary-color;
+    color: black;
+    
+
+}
+.number{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: transparent;
+    background-color: $primary-color;
+
+}
+.quantity{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.356);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    width: 30%;
+    border: transparent;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.fa-star{
+    color: $primary-color;
+}
+.slide{
+    width: 100px;
+}
+.fa-white{
+    color: white;
+    border: black;
+}
+.count{
+    position: absolute;
+    top: -11px;
+    right: 2px;
+    background-color: $primary-color;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 12px;
+}
+.fa-cart-arrow-down{
+    position: relative;
+}
+.semi-product{
+    width: 20%;
+    position: relative;
+    text-align: center;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+    box-shadow: 5px 5px 5px #8080804a;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    
+img{
+        width: 100%;
+    }
+   img.rotate{
+    width: 30px;
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    background: white;
+    padding: 4px;
+    box-shadow: 5px 5px 5px gray;
+   
+    }
+    
+    p{
+        font-weight: bold;
+        padding: 5px;
+    }
+}
+.semilar-products{
+    padding: 30px;
+    p{
+        text-align: start;
+    }
+    h3{
+        color: #542E90;
+    }
+}
+.semi-1, .semi-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-pro img{
+    width: 30px;
+}
+    
+.semi-price{
+    color: $sec-color;
+}
+.semi-products{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 20px;
+    
+}
+.semi{
+    padding-left: 40px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    .product,
+     .semi-products{
+         display: block;
+     }
+     .semi-product{
+         width: 100%;
+         margin-bottom: 10px;
+     }
+     .product-images, .product-content{
+         margin: 0;
+         width: 100%;
+         text-align: center;
+     }
+     .main-img, .more-images{
+        width: 100%;
+     }
+     .quantity{
+        width: 100%;
+        text-align: center;
+     }
+    }
